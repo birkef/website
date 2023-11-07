@@ -13,3 +13,5 @@ My old new personal website.
 [astro-icon](https://github.com/natemoo-re/astro-icon) as icon provider
 
 `*can't be used with Fontsource yet, go to the official repo and download the font`
+
+Copyright © Pavel Biryukov (AKA. birksovskiy) 2023
