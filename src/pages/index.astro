@@ -1,0 +1,51 @@
+---
+import '@fontsource/montserrat/500.css'
+
+import Layout from '../layouts/MainLayout.astro'
+import Nickname from '../components/Nickname.astro'
+import SocialLinks from '../components/SocialLinks.astro';
+
+const pages = [
+	{
+		"name": "About me",
+		"url": "/about"
+	},
+	{
+		"name": "My projects",
+		"url":"/projects"
+	}
+]
+---
+
+<Layout title="Main">
+	<Nickname />
+	<p>
+		I'm real, but not everyone is.
+	</p>
+	<div class="pages">
+		{ pages.map(page => <a href={ page.url }>{ page.name }</a>) }
+	</div>
+	<SocialLinks />
+</Layout>
+
+<style>
+	p {
+		color: #e0def4;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 16pt;
+		margin-bottom: 8%;
+	}
+
+	a {
+		color: #3e8fb0;
+		text-decoration: none;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 16pt;
+		padding: 2%;
+		margin: 5%;
+	}
+
+	a:hover {
+		color: #9ccfd8;
+	}
+</style>
