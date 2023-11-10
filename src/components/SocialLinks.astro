@@ -16,7 +16,7 @@ const socialLinks = [
 <div class="socials">
   {
     socialLinks.map((link) => (
-      <a rel="me" href={link.url}>
+      <a title={link.name} rel="me" href={link.url}>
         <Icon
           pack="ri"
           name={`${link.name.toLowerCase()}-line`}
