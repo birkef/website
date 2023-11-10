@@ -1,7 +1,7 @@
 ## [WIP] My website
 
 ### Information
-My old new personal website.
+My new old personal website.
 
 ### Stack
 [Astro](https://astro.build/) as framework
