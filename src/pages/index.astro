@@ -4,6 +4,7 @@ import "@fontsource/montserrat/500.css";
 import Layout from "../layouts/MainLayout.astro";
 import Nickname from "../components/Nickname.astro";
 import SocialLinks from "../components/SocialLinks.astro";
+import PageLink from "../components/PageLink.astro";
 
 const pages = [
   {
@@ -21,7 +22,7 @@ const pages = [
   <Nickname />
   <p>I'm real, but not everyone is.</p>
   <div class="pages">
-    {pages.map((page) => <a href={page.url}>{page.name}</a>)}
+    {pages.map((page) => <PageLink name={page.name} url={page.url} />)}
   </div>
   <SocialLinks />
 </Layout>
@@ -33,21 +34,5 @@ const pages = [
     font-size: 16pt;
     margin-bottom: 8%;
     user-select: none;
-  }
-
-  a {
-    color: #3e8fb0;
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    font-size: 16pt;
-    padding: 2%;
-    margin: 5%;
-    user-select: none;
-    transition-duration: 0.4s;
-  }
-
-  a:hover {
-    color: #9ccfd8;
-    font-size: 140%;
   }
 </style>

@@ -1,0 +1,22 @@
+---
+const { name, url } = Astro.props;
+---
+
+<a class="pagelink" href={url}>{name}</a>
+
+<style>
+  .pagelink {
+    color: #3e8fb0;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16pt;
+    padding: 2%;
+    margin: 5%;
+    user-select: none;
+    transition-duration: 0.3s;
+  }
+
+  .pagelink:hover {
+    color: #9ccfd8;
+  }
+</style>

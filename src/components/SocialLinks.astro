@@ -16,7 +16,7 @@ const socialLinks = [
 <div class="socials">
   {
     socialLinks.map((link) => (
-      <a href={link.url}>
+      <a rel="me" href={link.url}>
         <Icon
           pack="ri"
           name={`${link.name.toLowerCase()}-line`}
@@ -37,5 +37,13 @@ const socialLinks = [
   a {
     margin: 5%;
     user-select: none;
+  }
+
+  [astro-icon] {
+    transition-duration: 0.3s;
+  }
+
+  [astro-icon]:hover {
+    color: #908caa;
   }
 </style>

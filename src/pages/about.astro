@@ -1,10 +1,12 @@
 ---
+import PageLink from "../components/PageLink.astro";
 import Layout from "../layouts/MainLayout.astro";
 ---
 
 <Layout title="About">
   <p>Coming soon...</p>
-  <a href="/">Go back</a>
+  
+  <PageLink name="Go back" url="/" />
 </Layout>
 
 <style>
@@ -14,21 +16,5 @@ import Layout from "../layouts/MainLayout.astro";
     font-size: 16pt;
     margin-bottom: 8%;
     user-select: none;
-  }
-
-  a {
-    color: #3e8fb0;
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    font-size: 16pt;
-    padding: 2%;
-    margin: 5%;
-    user-select: none;
-    transition-duration: 0.4s;
-  }
-
-  a:hover {
-    color: #9ccfd8;
-    font-size: 140%;
   }
 </style>
