@@ -9,7 +9,7 @@ My personal website.
 	- [Montserrat](https://fontsource.org/fonts/montserrat) as main font
 	- [Monocraft*](https://github.com/IdreesInc/Monocraft), [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono) and [Fira Code](https://github.com/tonsky/FiraCode) as fonts for nickname animation
 - [astro-icon](https://github.com/natemoo-re/astro-icon) as icon provider
-	- [MingCute Icons](https://www.mingcute.com/)
+	- [Remix Icons](https://github.com/Remix-Design/RemixIcon)
 - [Vercel](https://vercel.com/) as hosting
 
 `*can't be used with Fontsource yet, get it from official repository`
