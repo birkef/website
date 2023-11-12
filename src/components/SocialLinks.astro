@@ -4,10 +4,12 @@ import { Icon } from "astro-icon";
 const socialLinks = [
   {
     name: "GitHub",
+    icon: "github",
     url: "https://github.com/birksovskiy",
   },
   {
     name: "Mastodon",
+    icon: "mastodon",
     url: "https://lor.sh/@birksovskiy",
   },
 ];
@@ -18,8 +20,7 @@ const socialLinks = [
     socialLinks.map((link) => (
       <a title={link.name} rel="me" href={link.url}>
         <Icon
-          pack="ri"
-          name={`${link.name.toLowerCase()}-line`}
+          name={`ri:${link.icon}-line`}
           color="#e0def4"
           size={48}
           title={link.name}
