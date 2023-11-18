@@ -1,0 +1,27 @@
+---
+
+import PageLink from "../components/PageLink.astro";
+import Layout from "../layouts/MainLayout.astro";
+---
+
+<Layout title="About">
+  <p class="four-zero-four">404</p>
+  <p>Page you tried to visit doesn't exist.</p>
+  <PageLink
+		name="Go back"
+		url="/"
+	/>
+</Layout>
+
+<style>
+	@font-face {
+    font-family: "Monocraft";
+  	src: url("/fonts/Monocraft.otf") format("opentype");
+	}
+
+	.four-zero-four {
+		font-family: 'Monocraft';
+		font-size: 48pt;
+		color: #eb6f92;
+	}
+</style>
