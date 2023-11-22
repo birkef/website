@@ -18,8 +18,8 @@ dependencies:
     specifier: ^5.0.15
     version: 5.0.15
   astro:
-    specifier: ^3.5.6
-    version: 3.5.6(typescript@5.3.2)
+    specifier: ^3.5.7
+    version: 3.5.7(typescript@5.3.2)
   astro-icon:
     specifier: ^0.8.1
     version: 0.8.1
@@ -96,13 +96,13 @@ packages:
       - typescript
     dev: false
 
-  /@astrojs/markdown-remark@3.5.0(astro@3.5.6):
+  /@astrojs/markdown-remark@3.5.0(astro@3.5.7):
     resolution: {integrity: sha512-q7vdIqzYhxpsfghg2YmkmSXCfp4w7lBTYP+SSHw89wVhC5Riltr3u8w2otBRxNLSByNi+ht/gGkFC23Shetytw==}
     peerDependencies:
       astro: ^3.0.0
     dependencies:
       '@astrojs/prism': 3.0.0
-      astro: 3.5.6(typescript@5.3.2)
+      astro: 3.5.7(typescript@5.3.2)
       github-slugger: 2.0.0
       import-meta-resolve: 3.1.1
       mdast-util-definitions: 6.0.0
@@ -1079,14 +1079,14 @@ packages:
       svgo: 2.8.0
     dev: false
 
-  /astro@3.5.6(typescript@5.3.2):
-    resolution: {integrity: sha512-50gKrQl7rlPKeChtZVLRMNQDVKJP2PoGk8ZiDVHt4U4AjJjnLs/XvOBuseoSXvQW5Zbp0IQuDN/uzq8hRhTl6w==}
+  /astro@3.5.7(typescript@5.3.2):
+    resolution: {integrity: sha512-sQiblxFOzWuqo6qdpw15AxGyvQfWa6DMlEazp2+6Ra1pK7uiuK/zxf5LZKiOeZ01Wtv4dveXOwPPwf2eN+5Wew==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
       '@astrojs/compiler': 2.3.2
       '@astrojs/internal-helpers': 0.2.1
-      '@astrojs/markdown-remark': 3.5.0(astro@3.5.6)
+      '@astrojs/markdown-remark': 3.5.0(astro@3.5.7)
       '@astrojs/telemetry': 3.0.4
       '@babel/core': 7.23.3
       '@babel/generator': 7.23.4
@@ -1224,7 +1224,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001563
-      electron-to-chromium: 1.4.589
+      electron-to-chromium: 1.4.590
       node-releases: 2.0.13
       update-browserslist-db: 1.0.13(browserslist@4.22.1)
     dev: false
@@ -1576,8 +1576,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: false
 
-  /electron-to-chromium@1.4.589:
-    resolution: {integrity: sha512-zF6y5v/YfoFIgwf2dDfAqVlPPsyQeWNpEWXbAlDUS8Ax4Z2VoiiZpAPC0Jm9hXEkJm2vIZpwB6rc4KnLTQffbQ==}
+  /electron-to-chromium@1.4.590:
+    resolution: {integrity: sha512-hohItzsQcG7/FBsviCYMtQwUSWvVF7NVqPOnJCErWsAshsP/CR2LAXdmq276RbESNdhxiAq5/vRo1g2pxGXVww==}
     dev: false
 
   /emmet@2.4.6:
