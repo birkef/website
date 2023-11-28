@@ -1,6 +1,5 @@
 ---
 const { title } = Astro.props;
-import "../styles/main.css";
 ---
 
 <html lang="en">
@@ -19,6 +18,11 @@ import "../styles/main.css";
 </html>
 
 <style>
+  @font-face {
+    font-family: "Monocraft";
+    src: url("/fonts/Monocraft.otf") format("opentype");
+  }
+
   html {
     text-align: center;
     width: 60%;

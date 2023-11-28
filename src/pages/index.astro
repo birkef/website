@@ -1,8 +1,7 @@
 ---
-import "@fontsource/montserrat/500.css";
-
 import Layout from "../layouts/MainLayout.astro";
 import Nickname from "../components/Nickname.astro";
+import Paragraph from "../components/Paragraph.astro";
 import SocialLinks from "../components/SocialLinks.astro";
 import PageLink from "../components/PageLink.astro";
 
@@ -20,12 +19,12 @@ const pages = [
 
 <Layout title="Main">
   <Nickname />
-  <p>I'm real, but not everyone is.</p>
+  <Paragraph>I'm real, but not everyone is.</Paragraph>
   <div class="pages">
     {pages.map((page) => <PageLink name={page.name} url={page.url} />)}
   </div>
   <SocialLinks />
-  <a class="secret" href="/404">404</p>
+  <a class="secret" href="/404">404</a>
 </Layout>
 
 <style>
