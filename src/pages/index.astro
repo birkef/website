@@ -20,20 +20,16 @@ const pages = [
 <Layout title="Main">
   <Nickname />
   <Paragraph>I'm real, but not everyone is.</Paragraph>
-  <div class="pages">
-    {pages.map((page) => <PageLink name={page.name} url={page.url} />)}
+  <div class="flex items-center justify-center text-center">
+    {pages.map(({ name, url }) => <PageLink name={name} url={url} />)}
   </div>
   <SocialLinks />
-  <a class="secret" href="/404">404</a>
+  <a
+    class:list={[
+      "text-[2px]",
+      "text-rosePineMoon-base",
+      "hover:text-rosePineMoon-base",
+    ]}
+    href="/404">404</a
+  >
 </Layout>
-
-<style>
-  .secret {
-    color: #232136;
-    font-size: 2px;
-  }
-
-  .secret:hover {
-    color: #232136;
-  }
-</style>
