@@ -3,23 +3,25 @@ const { title } = Astro.props;
 ---
 
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>birksovskiy | {title}</title>
-  </head>
-  <body class="flex h-screen items-center justify-center bg-rosePineMoon-base text-center">
-    <div id="root">
-      <slot />
-    </div>
-  </body>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>birksovskiy | {title}</title>
+	</head>
+	<body
+		class="flex h-screen items-center justify-center bg-rosePineMoon-base text-center"
+	>
+		<div id="root">
+			<slot />
+		</div>
+	</body>
 </html>
 
 <style>
-  @font-face {
-    font-family: "Monocraft";
-    src: url("/fonts/Monocraft.otf") format("opentype");
-  }
+	@font-face {
+		font-family: "Monocraft";
+		src: url("/fonts/Monocraft.otf") format("opentype");
+	}
 </style>
