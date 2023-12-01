@@ -2,57 +2,41 @@
 import { Icon } from "astro-icon";
 
 const socialLinks = [
-  {
-    name: "GitHub",
-    icon: "github",
-    url: "https://github.com/birksovskiy",
-  },
-  {
-    name: "Mastodon",
-    icon: "mastodon",
-    url: "https://lor.sh/@birksovskiy",
-  },
+	{
+		name: "GitHub",
+		icon: "github",
+		url: "https://github.com/birksovskiy",
+	},
+	{
+		name: "Mastodon",
+		icon: "mastodon",
+		url: "https://lor.sh/@birksovskiy",
+	},
 ];
 ---
 
-<div class="socials">
-  {
-    socialLinks.map((link) => (
-      <a title={link.name} rel="me" href={link.url}>
-        <Icon
-          name={`ri:${link.icon}-line`}
-          color="#e0def4"
-          size={48}
-          title={link.name}
-        />
-      </a>
-    ))
-  }
+<div class:list={["m-[10%]", "flex", "items-center", "justify-center"]}>
+	{
+		socialLinks.map((link) => (
+			<a
+				title={link.name}
+				class:list={[
+					"mx-[10%]",
+					"select-none",
+					"text-rosePineMoon-base",
+					"hover:text-rosePineMoon-base",
+				]}
+				rel="me"
+				href={link.url}
+			>
+				<Icon
+					name={`ri:${link.icon}-line`}
+					class:list={["hover:color-rosePineMoon-subtle", "duration-300"]}
+					color="#e0def4"
+					size={48}
+					title={link.name}
+				/>
+			</a>
+		))
+	}
 </div>
-
-<style>
-  .socials {
-    margin: 10%;
-  }
-
-  .socials a {
-    color: #232136;
-  }
-
-  .socials a:hover {
-    color: #232136;
-  }
-
-  a {
-    margin: 5%;
-    user-select: none;
-  }
-
-  [astro-icon] {
-    transition-duration: 0.3s;
-  }
-
-  [astro-icon]:hover {
-    color: #908caa;
-  }
-</style>

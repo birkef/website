@@ -1,27 +1,15 @@
 ---
-
 import PageLink from "../components/PageLink.astro";
+import Paragraph from "../components/Paragraph.astro";
 import Layout from "../layouts/MainLayout.astro";
 ---
 
 <Layout title="About">
-  <p class="four-zero-four">404</p>
-  <p>Page you tried to visit doesn't exist.</p>
-  <PageLink
-		name="Go back"
-		url="/"
-	/>
+	<p
+		class:list={["m-5", "font-monocraft", "text-6xl", "text-rosePineMoon-love"]}
+	>
+		404
+	</p>
+	<Paragraph>Page you tried to visit doesn't exist.</Paragraph>
+	<PageLink name="Go back" url="/" />
 </Layout>
-
-<style>
-	@font-face {
-    font-family: "Monocraft";
-  	src: url("/fonts/Monocraft.otf") format("opentype");
-	}
-
-	.four-zero-four {
-		font-family: 'Monocraft';
-		font-size: 48pt;
-		color: #eb6f92;
-	}
-</style>

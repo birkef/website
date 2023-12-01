@@ -1,40 +1,35 @@
 ---
-import "@fontsource/montserrat/500.css";
-
 import Layout from "../layouts/MainLayout.astro";
 import Nickname from "../components/Nickname.astro";
+import Paragraph from "../components/Paragraph.astro";
 import SocialLinks from "../components/SocialLinks.astro";
 import PageLink from "../components/PageLink.astro";
 
 const pages = [
-  {
-    name: "About me",
-    url: "/about",
-  },
-  {
-    name: "My projects",
-    url: "/projects",
-  },
+	{
+		name: "About me",
+		url: "/about",
+	},
+	{
+		name: "My projects",
+		url: "/projects",
+	},
 ];
 ---
 
 <Layout title="Main">
-  <Nickname />
-  <p>I'm real, but not everyone is.</p>
-  <div class="pages">
-    {pages.map((page) => <PageLink name={page.name} url={page.url} />)}
-  </div>
-  <SocialLinks />
-  <a class="secret" href="/404">404</p>
+	<Nickname />
+	<Paragraph>I'm real, but not everyone is.</Paragraph>
+	<div class:list={["flex", "items-center", "justify-center", "text-center"]}>
+		{pages.map(({ name, url }) => <PageLink name={name} url={url} />)}
+	</div>
+	<SocialLinks />
+	<a
+		class:list={[
+			"text-[2px]",
+			"text-rosePineMoon-base",
+			"hover:text-rosePineMoon-base",
+		]}
+		href="/404">404</a
+	>
 </Layout>
-
-<style>
-  .secret {
-    color: #232136;
-    font-size: 2px;
-  }
-
-  .secret:hover {
-    color: #232136;
-  }
-</style>

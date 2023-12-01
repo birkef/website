@@ -3,37 +3,14 @@ import "@fontsource/jetbrains-mono";
 import "@fontsource/fira-code";
 ---
 
-<div class="nickname">
-  <h3>birksovskiy</h3>
+<div
+	class:list={[
+		"m-[15%]",
+		"animate-nicknameChangeFont",
+		"select-none",
+		"text-[1.75rem]",
+		"text-rosePineMoon-iris",
+	]}
+>
+	<h3>birksovskiy</h3>
 </div>
-
-<style>
-  @font-face {
-    font-family: "Monocraft";
-    src: url("/fonts/Monocraft.otf") format("opentype");
-  }
-
-  .nickname {
-    user-select: none;
-    color: #c4a7e7;
-    max-height: 22pt;
-    font-size: 18pt;
-    animation: nicknameChangeFont 2s infinite;
-    margin: 10%;
-  }
-
-  @keyframes nicknameChangeFont {
-    from {
-      font-family: "Monocraft";
-    }
-    33% {
-      font-family: "JetBrains Mono";
-    }
-    67% {
-      font-family: "Fira Code";
-    }
-    to {
-      font-family: "Monocraft";
-    }
-  }
-</style>
