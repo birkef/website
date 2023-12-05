@@ -6,7 +6,7 @@ My personal website.
 
 - Framework: [Astro](https://astro.build/)
 - Styles: [TailwindCSS](https://tailwindcss.com/)
-- Font provider: [Fontsource](https://fontsource.org/) as fonts provider
+- Font provider: [Fontsource](https://fontsource.org/)
 - Icon provider: [astro-icon](https://github.com/natemoo-re/astro-icon)
 
 ## Tools
@@ -14,5 +14,3 @@ My personal website.
 - Package manager: [pnpm](https://pnpm.io/)
 - Code formatter: [Prettier](https://prettier.io/)
 - Hosting: [Vercel](https://vercel.com/)
-
-`*can't be used with Fontsource yet, get it from official repository`
