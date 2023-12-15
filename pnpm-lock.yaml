@@ -10,7 +10,7 @@ dependencies:
     version: 0.3.2(prettier-plugin-astro@0.12.2)(prettier@3.1.1)(typescript@5.3.3)
   '@astrojs/tailwind':
     specifier: ^5.0.3
-    version: 5.0.3(astro@4.0.4)(tailwindcss@3.3.6)
+    version: 5.0.3(astro@4.0.5)(tailwindcss@3.3.6)
   '@fontsource/fira-code':
     specifier: ^5.0.16
     version: 5.0.16
@@ -21,8 +21,8 @@ dependencies:
     specifier: ^5.0.16
     version: 5.0.16
   astro:
-    specifier: ^4.0.4
-    version: 4.0.4(typescript@5.3.3)
+    specifier: ^4.0.5
+    version: 4.0.5(typescript@5.3.3)
   astro-icon:
     specifier: ^0.8.2
     version: 0.8.2
@@ -151,13 +151,13 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/tailwind@5.0.3(astro@4.0.4)(tailwindcss@3.3.6):
+  /@astrojs/tailwind@5.0.3(astro@4.0.5)(tailwindcss@3.3.6):
     resolution: {integrity: sha512-p+uFa1PNuV8RxhGkPUFgVq8CUbmS3xr0u5k1An2xKECLotRh7vsrGcPUijHvYOt42URohcg8rIq0CxNoVMhReg==}
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0
       tailwindcss: ^3.0.24
     dependencies:
-      astro: 4.0.4(typescript@5.3.3)
+      astro: 4.0.5(typescript@5.3.3)
       autoprefixer: 10.4.16(postcss@8.4.32)
       postcss: 8.4.32
       postcss-load-config: 4.0.2(postcss@8.4.32)
@@ -1015,8 +1015,8 @@ packages:
       svgo: 2.8.0
     dev: false
 
-  /astro@4.0.4(typescript@5.3.3):
-    resolution: {integrity: sha512-KhwoF5//kFusczKN46ZG185uk9BQt1OH5949wsrFKs0z7Oo/o31XyxKyqIW8ZSL0fWU4XYKSdYlAo1RaPF9TtA==}
+  /astro@4.0.5(typescript@5.3.3):
+    resolution: {integrity: sha512-OTiTEiXYdXTkVJXNNKIWdYG1z2wpTST+92Qcldm36x91Pe4fKpLxeuRloy5cW175oHi8lvXytgG3Gl3VBP18RQ==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
