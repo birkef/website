@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@astrojs/check':
-    specifier: ^0.3.2
-    version: 0.3.2(prettier-plugin-astro@0.12.2)(prettier@3.1.1)(typescript@5.3.3)
+    specifier: ^0.3.3
+    version: 0.3.3(prettier-plugin-astro@0.12.2)(prettier@3.1.1)(typescript@5.3.3)
   '@astrojs/tailwind':
     specifier: ^5.0.3
-    version: 5.0.3(astro@4.0.5)(tailwindcss@3.3.6)
+    version: 5.0.3(astro@4.0.6)(tailwindcss@3.3.6)
   '@fontsource/fira-code':
     specifier: ^5.0.16
     version: 5.0.16
@@ -21,8 +21,8 @@ dependencies:
     specifier: ^5.0.16
     version: 5.0.16
   astro:
-    specifier: ^4.0.5
-    version: 4.0.5(typescript@5.3.3)
+    specifier: ^4.0.6
+    version: 4.0.6(typescript@5.3.3)
   astro-icon:
     specifier: ^0.8.2
     version: 0.8.2
@@ -59,13 +59,13 @@ packages:
       '@jridgewell/trace-mapping': 0.3.20
     dev: false
 
-  /@astrojs/check@0.3.2(prettier-plugin-astro@0.12.2)(prettier@3.1.1)(typescript@5.3.3):
-    resolution: {integrity: sha512-3w+FUauJpfbR0sHPM7GXcn97sKgw2E+BBpXWyPwQQjxOZFU8AozVE7BP4kyGMPI+qYI2tGqDBklHMlezyfSb2A==}
+  /@astrojs/check@0.3.3(prettier-plugin-astro@0.12.2)(prettier@3.1.1)(typescript@5.3.3):
+    resolution: {integrity: sha512-IpglE0PNWEXmRY0y67EYuLwiyMxRUuZuG1oP+tIgqeQEy45g1pBMIWpGnNXdoVRbChHDWMSFd2kLUtgzBUHnRQ==}
     hasBin: true
     peerDependencies:
       typescript: ^5.0.0
     dependencies:
-      '@astrojs/language-server': 2.5.3(prettier-plugin-astro@0.12.2)(prettier@3.1.1)(typescript@5.3.3)
+      '@astrojs/language-server': 2.5.4(prettier-plugin-astro@0.12.2)(prettier@3.1.1)(typescript@5.3.3)
       chokidar: 3.5.3
       fast-glob: 3.3.2
       kleur: 4.1.5
@@ -83,12 +83,16 @@ packages:
     resolution: {integrity: sha512-jkY7bCVxl27KeZsSxIZ+pqACe+g8VQUdTiSJRj/sXYdIaZlW3ZMq4qF2M17P/oDt3LBq0zLNwQr4Cb7fSpRGxQ==}
     dev: false
 
+  /@astrojs/compiler@2.3.4:
+    resolution: {integrity: sha512-33/YtWoBCE0cBUNy1kh78FCDXBoBANX87ShgATlAHECYbG2+buNTAgq4Xgz4t5NgnEHPN21GIBC2Mvvwisoutw==}
+    dev: false
+
   /@astrojs/internal-helpers@0.2.1:
     resolution: {integrity: sha512-06DD2ZnItMwUnH81LBLco3tWjcZ1lGU9rLCCBaeUCGYe9cI0wKyY2W3kDyoW1I6GmcWgt1fu+D1CTvz+FIKf8A==}
     dev: false
 
-  /@astrojs/language-server@2.5.3(prettier-plugin-astro@0.12.2)(prettier@3.1.1)(typescript@5.3.3):
-    resolution: {integrity: sha512-AcSWu/u+qtFxVbqEXWZQb57xy0JCXHRv7uOcogxGT6STGDrMiCCfkoAZnDPf3Xi2qOhG/vWKKOQZktpZhzCAmQ==}
+  /@astrojs/language-server@2.5.4(prettier-plugin-astro@0.12.2)(prettier@3.1.1)(typescript@5.3.3):
+    resolution: {integrity: sha512-diTs8AW5TvpO6LWEyuAMAC1ydH1tnVJmv2dRrcczklJZcfY9/eYLbGtKiC9rEQH3BwvFdnphroMUEprzCiqSMg==}
     hasBin: true
     peerDependencies:
       prettier: ^3.0.0
@@ -151,13 +155,13 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/tailwind@5.0.3(astro@4.0.5)(tailwindcss@3.3.6):
+  /@astrojs/tailwind@5.0.3(astro@4.0.6)(tailwindcss@3.3.6):
     resolution: {integrity: sha512-p+uFa1PNuV8RxhGkPUFgVq8CUbmS3xr0u5k1An2xKECLotRh7vsrGcPUijHvYOt42URohcg8rIq0CxNoVMhReg==}
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0
       tailwindcss: ^3.0.24
     dependencies:
-      astro: 4.0.5(typescript@5.3.3)
+      astro: 4.0.6(typescript@5.3.3)
       autoprefixer: 10.4.16(postcss@8.4.32)
       postcss: 8.4.32
       postcss-load-config: 4.0.2(postcss@8.4.32)
@@ -1015,12 +1019,12 @@ packages:
       svgo: 2.8.0
     dev: false
 
-  /astro@4.0.5(typescript@5.3.3):
-    resolution: {integrity: sha512-OTiTEiXYdXTkVJXNNKIWdYG1z2wpTST+92Qcldm36x91Pe4fKpLxeuRloy5cW175oHi8lvXytgG3Gl3VBP18RQ==}
+  /astro@4.0.6(typescript@5.3.3):
+    resolution: {integrity: sha512-P7CfFqWKzkJozzF6IoOC6qoI2ONndV8P3ULhGDgMiXPL7xVkWI5haTBSpyrcjBx643tVXspIRsSV/v+Cx+CjGw==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
-      '@astrojs/compiler': 2.3.2
+      '@astrojs/compiler': 2.3.4
       '@astrojs/internal-helpers': 0.2.1
       '@astrojs/markdown-remark': 4.0.1
       '@astrojs/telemetry': 3.0.4
