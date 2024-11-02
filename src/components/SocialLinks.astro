@@ -1,7 +1,13 @@
 ---
 import { Icon } from "astro-icon";
 
-const socialLinks = [
+interface ISocialLink {
+	name: string,
+	icon: string,
+	url: string,
+}
+
+const socialLinks: ISocialLink[] = [
 	{
 		name: "GitHub",
 		icon: "github",
@@ -17,7 +23,7 @@ const socialLinks = [
 
 <div class:list={["m-[1vh]", "flex", "items-center", "justify-center"]}>
 	{
-		socialLinks.map((link) => (
+		socialLinks.map((link: ISocialLink) => (
 			<a
 				title={link.name}
 				class:list={[
