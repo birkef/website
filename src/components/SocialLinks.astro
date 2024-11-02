@@ -1,6 +1,4 @@
 ---
-import { Icon } from "astro-icon";
-
 interface ISocialLink {
 	name: string,
 	icon: string,
@@ -10,12 +8,12 @@ interface ISocialLink {
 const socialLinks: ISocialLink[] = [
 	{
 		name: "GitHub",
-		icon: "github",
+		icon: "tabler--brand-github",
 		url: "https://github.com/birkef",
 	},
 	{
 		name: "Telegram",
-		icon: "telegram",
+		icon: "tabler--brand-telegram",
 		url: "https://t.me/birkef"
 	}
 ];
@@ -36,12 +34,9 @@ const socialLinks: ISocialLink[] = [
 				rel="me"
 				href={link.url}
 			>
-				<Icon
-					name={`tabler:brand-${link.icon}`}
-					class:list={["hover:color-rosePineMoon-subtle", "duration-300"]}
-					color="#e0def4"
-					size={48}
+				<span
 					title={link.name}
+					class=`iconify ${link.icon} text-rosePineMoon-text text-[48px] hover:text-rosePineMoon-subtle duration-300`
 				/>
 			</a>
 		))
