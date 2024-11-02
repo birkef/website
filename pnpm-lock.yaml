@@ -33,9 +33,9 @@ importers:
         specifier: ^5.6.3
         version: 5.6.3
     devDependencies:
-      '@iconify-json/tabler':
-        specifier: ^1.2.7
-        version: 1.2.7
+      '@iconify-json/mingcute':
+        specifier: ^1.2.1
+        version: 1.2.1
       '@iconify/tailwind':
         specifier: ^1.1.3
         version: 1.1.3
@@ -360,8 +360,8 @@ packages:
   '@fontsource/montserrat@5.1.0':
     resolution: {integrity: sha512-HB4+rWP9Y8g6T9RGRVJk2SvAJtx2eBAXuivvPOqQdD806/9WESUfucfH9LqFj3bGgdhNCfh0Rv0NGuwEmBLRiw==}
 
-  '@iconify-json/tabler@1.2.7':
-    resolution: {integrity: sha512-q6FbDeC5caOC7i7/dcJOv7PdovHWItd84hCvsnlD/mzsrl5Nhol6eSQOMRv1bIpyxykGEiSDbOsVK5f23j/aFg==}
+  '@iconify-json/mingcute@1.2.1':
+    resolution: {integrity: sha512-rv682dBsjKUs1/AVg5tOegAunjCLuqyQufXU0D6Kbmgg5jMoUcl/9K2C+9MAiepBP0Eyb05YwXQvGaXMLPu/YA==}
 
   '@iconify/tailwind@1.1.3':
     resolution: {integrity: sha512-SfyeT+2b/aKWA6DjwdevXdLUqaEqJ5xWTegD92KItaWc47IYsGuqrt/GOz4dJCPcTVCrsUjlvMpy8cNd+uV5nQ==}
@@ -2526,7 +2526,7 @@ snapshots:
 
   '@fontsource/montserrat@5.1.0': {}
 
-  '@iconify-json/tabler@1.2.7':
+  '@iconify-json/mingcute@1.2.1':
     dependencies:
       '@iconify/types': 2.0.0
 

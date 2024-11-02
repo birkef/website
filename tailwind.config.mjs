@@ -42,6 +42,6 @@ export default {
 		},
 	},
 	plugins: [
-		addIconSelectors(['tabler']),
+		addIconSelectors(['mingcute']),
 	],
 };
