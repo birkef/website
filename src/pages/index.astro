@@ -25,14 +25,19 @@ const pages: IPage[] = [
 <Layout title="Main">
 	<Nickname />
 	<Paragraph>I'm real, but not everyone is.</Paragraph>
-	<div class:list={["flex", "items-center", "justify-center", "text-center"]}>
+	<div class:list={[
+		"flex",
+		"text-center",
+		"items-center",
+		"justify-center",
+	]}>
 		{pages.map((page: IPage) => <PageLink name={page.name} url={page.url} />)}
 	</div>
 	<SocialLinks />
 	<a
 		class:list={[
-			"select-none",
 			"text-[2px]",
+			"select-none",
 			"text-rosePineMoon-base",
 			"hover:text-rosePineMoon-base",
 		]}

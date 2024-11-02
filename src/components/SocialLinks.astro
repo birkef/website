@@ -25,8 +25,8 @@ const socialLinks: ISocialLink[] = [
 			<a
 				title={link.name}
 				class:list={[
-					"mx-[10%]",
 					"my-[5%]",
+					"mx-[10%]",
 					"select-none",
 					"text-rosePineMoon-base",
 					"hover:text-rosePineMoon-base",
@@ -36,7 +36,14 @@ const socialLinks: ISocialLink[] = [
 			>
 				<span
 					title={link.name}
-					class=`iconify ${link.icon} text-rosePineMoon-text text-[48px] hover:text-rosePineMoon-subtle duration-300`
+					class:list={[
+						"iconify",
+						link.icon,
+						"text-[48px]",
+						"duration-300",
+						"text-rosePineMoon-text",
+						"hover:text-rosePineMoon-subtle",
+					]}
 				/>
 			</a>
 		))
