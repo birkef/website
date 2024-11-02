@@ -1,15 +1,16 @@
 # My website
 
-[![Built with Astro](https://astro.badg.es/v2/built-with-astro/small.svg)](https://astro.build)
+[![Built with Astro](https://astro.badg.es/v2/built-with-astro/tiny.svg)](https://astro.build)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 My personal website.
 
 ## Stack
 
 - Framework: [Astro](https://astro.build/)
-- Styles: [TailwindCSS](https://tailwindcss.com/)
+- Styles: [Tailwind CSS](https://tailwindcss.com/)
 - Font provider: [Fontsource](https://fontsource.org/)
-- Icon provider: [astro-icon](https://github.com/natemoo-re/astro-icon)
+- Icon provider: [Iconify](https://iconify.design/)
 
 ## Tools
 
