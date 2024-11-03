@@ -14,7 +14,6 @@
 	"dependencies": {
 		"@astrojs/check": "^0.7.0",
 		"@astrojs/tailwind": "^5.1.2",
-		"@fontsource/fira-code": "^5.1.0",
 		"@fontsource/jetbrains-mono": "^5.1.1",
 		"@fontsource/montserrat": "^5.1.0",
 		"astro": "^4.16.8",

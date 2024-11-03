@@ -8,6 +8,8 @@ export default {
 			fontFamily: {
 				monocraft: ["Monocraft"],
 				montserrat: ["Montserrat", "sans-serif"],
+				monaradon: ["Monaspace Radon"],
+				monakrypton: ["Monaspace Krypton"]
 			},
 			colors: {
 				rosePineMoon: {
@@ -29,13 +31,14 @@ export default {
 				},
 			},
 			animation: {
-				nicknameChangeFont: "nicknameChangeFont 2s infinite",
+				nicknameChangeFont: "nicknameChangeFont 3s infinite",
 			},
 			keyframes: {
 				nicknameChangeFont: {
 					from: { "font-family": "Monocraft" },
-					"33%": { "font-family": "JetBrains Mono" },
-					"67%": { "font-family": "Fira Code" },
+					"25%": { "font-family": "Monaspace Krypton" },
+					"50%": { "font-family": "JetBrains Mono" },
+					"75%": { "font-family": "Monaspace Radon" },
 					to: { "font-family": "Monocraft" },
 				},
 			},

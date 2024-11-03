@@ -14,9 +14,6 @@ importers:
       '@astrojs/tailwind':
         specifier: ^5.1.2
         version: 5.1.2(astro@4.16.8(rollup@4.24.3)(typescript@5.6.3))(tailwindcss@3.4.14)
-      '@fontsource/fira-code':
-        specifier: ^5.1.0
-        version: 5.1.0
       '@fontsource/jetbrains-mono':
         specifier: ^5.1.1
         version: 5.1.1
@@ -350,9 +347,6 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [win32]
-
-  '@fontsource/fira-code@5.1.0':
-    resolution: {integrity: sha512-ti2XDP0qthaTDu44QawNP3PjEZIZ/cNl5VUZzvF9oYS/WY4LgmbF43IMTgTUZL33hknwFWBfmLmZCheOQmzJDg==}
 
   '@fontsource/jetbrains-mono@5.1.1':
     resolution: {integrity: sha512-5rwvmdQQpXev4LlBX1P+7h2dguu6iwW/9Npjde4+DEq+HgpVJI/7QY8DI1NVVFdvLtXZNP+vO2L/5BQED6FUhA==}
@@ -2519,8 +2513,6 @@ snapshots:
 
   '@esbuild/win32-x64@0.21.5':
     optional: true
-
-  '@fontsource/fira-code@5.1.0': {}
 
   '@fontsource/jetbrains-mono@5.1.1': {}
 
