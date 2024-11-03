@@ -36,8 +36,8 @@ export default {
 			keyframes: {
 				nicknameChangeFont: {
 					from: { "font-family": "Monocraft" },
-					"25%": { "font-family": "Monaspace Krypton" },
-					"50%": { "font-family": "JetBrains Mono" },
+					"25%": { "font-family": "JetBrains Mono" },
+					"50%": { "font-family": "Monaspace Krypton" },
 					"75%": { "font-family": "Monaspace Radon" },
 					to: { "font-family": "Monocraft" },
 				},
