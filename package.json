@@ -13,10 +13,10 @@
 	},
 	"dependencies": {
 		"@astrojs/check": "^0.9.4",
-		"@astrojs/tailwind": "^6.0.0",
+		"@astrojs/tailwind": "^6.0.2",
 		"@fontsource/jetbrains-mono": "^5.2.5",
 		"@fontsource/montserrat": "^5.2.5",
-		"astro": "^5.5.2",
+		"astro": "^5.5.6",
 		"tailwindcss": "^3.4.17",
 		"typescript": "^5.8.2"
 	},
